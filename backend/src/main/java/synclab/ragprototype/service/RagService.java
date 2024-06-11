@@ -87,16 +87,16 @@ public class RagService {
                     .build();
         } else if ("Gemini".equals(model)) {
             chatModel = VertexAiGeminiChatModel.builder()
-                    .project("gemini-synclab-proj")
+                    .project("INSERT_HERE_YOUR_PROJECT_NAME")
                     .location("us-central1")
                     .modelName("gemini-1.5-pro-preview-0514")
                     .temperature(0.6F)
                     .build();
         } else if ("PaLM2".equals(model)) {
             chatModel = VertexAiChatModel.builder()
-                    .project("gemini-synclab-proj")
+                    .project("INSERT_HERE_YOUR_PROJECT_NAME")
                     .location("us-central1")
-                    .modelName("chat-bison")
+                    .modelName("chat-bison-32k")
                     .publisher("google")
                     .endpoint("us-central1-aiplatform.googleapis.com:443")
                     .temperature(0.6)
