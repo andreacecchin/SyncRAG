@@ -61,14 +61,14 @@ function DocMenu () {
             <UploadDoc  fetchDocuments={fetchDocuments}/>
             <div className="mt-4 overflow-y-auto max-h-80 bg-[--background-contrast] rounded-2xl">
                 {documents.map((doc, index) => (
-                <div key={index} className="flex justify-between items-center p-2 border-b">
+                <div key={index} className="flex justify-between items-center p-2 border-b font-medium">
                     <span>{doc.name}</span>
                     <button
                     className="p-1 rounded"
                     onClick={() => handleDelete(doc.name)}
                     title='Delete'
                     >
-                    <i className=" dark:text-[--background-input] fa-solid fa-trash"></i>
+                    <i className=" text-[--background-input] fa-solid fa-trash"></i>
                     </button>
                 </div>
                 ))}

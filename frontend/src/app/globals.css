@@ -24,7 +24,7 @@
   --background-input: #143568;
 
   --primary: #1a55ad;
-
+  --text-area: #111111;
 
   --secondary: #976b3f;
   --accent: #1a55ad;
@@ -85,7 +85,7 @@ main{
     --background-input: #143568;
   
     --primary: #1a55ad;
-  
+    --text-area: #111111;
   
     --secondary: #976b3f;
     --accent: #1a55ad;

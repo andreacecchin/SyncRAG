@@ -45,7 +45,7 @@ function UploadDoc({ fetchDocuments }: { fetchDocuments: () => void }) {
         <>
             <ToastContainer />
             <form className=" bg-[--background-contrast] lg:w-full flex lg:mx-0 md:mx-0 mx-auto flex-col gap-5 rounded-xl p-4 shadow-2xl " onSubmit={onSubmit} >
-                <label className="text-sky-950 dark:text-sky-50 text-xl font-medium text-center">
+                <label className="text-sky-950 text-xl font-medium text-center ">
                     Add a document
                 </label>
                 <input
