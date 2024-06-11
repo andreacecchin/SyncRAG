@@ -55,4 +55,9 @@ public class Controller {
             return ResponseEntity.ok(false);
         }
     }
+
+    @PostMapping("/test")
+    public String test(@RequestBody String newPassword) {
+        return authService.newPassword(newPassword);
+    }
 }

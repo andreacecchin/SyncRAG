@@ -24,4 +24,14 @@ public class AuthService {
         return new BCryptPasswordEncoder().matches(password,passwordAdmin);
     }
 
+    public String newPassword(String newPassword) {
+        try {
+            Credential credential = authRepository.findByUsername(ADMIN_USERNAME);
+            credential.setPassword(newPassword);
+            return "Password changed correctly.";
+        } catch (Exception  e) {
+            return "Error changing password";
+        }
+    }
+
 }
