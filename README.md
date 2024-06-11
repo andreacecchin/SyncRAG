@@ -24,7 +24,7 @@
 <h3 align="center">Come utilizzare</h3>
 
 <p>
-    Per configurare e utilizzare il prototipo, fare riferimento al documento Proof_of_Concept.pdf
+    Per configurare e utilizzare il prototipo e i modelli linguistici, fare riferimento al documento Proof_of_Concept.pdf (capitolo Utilizzo)
     <br>
     Consultare il medesimo documento per maggiori informazioni sul funzionamento del prototipo
 </p>
